@@ -20,7 +20,6 @@ int main() {
         somaTotal += somaLinhas[i];
     }
 
-    printf("\n--- RESULTADOS ---\n");
     for(i = 0; i < 3; i++) {
         printf("Soma da Linha %d: %d\n", i, somaLinhas[i]);
     }
